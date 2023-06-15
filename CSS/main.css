@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+:root {
+  font-size: 16px;
+  --mw: 1200px;
+}
+.mw {
+  max-width: var(--mw);
+  width: calc(100% - 2rem);
+  margin: 0 auto;
+}
+.main_wrap {
+  border: 1px solid transparent;
+}
+.main {
+  width: 100vw;
+  height: 100vh;
+}
+.main_mold {
+  border: 1px solid blue;
+  margin-top: 5rem;
+  padding-top: 33%;
+  background-image: url(../img/mainMold.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.moldImg {
+  position: absolute;
+}
+.photo {
+  position: absolute;
+  width: 25%;
+  left: 5%;
+  top: 17%;
+}
+.edu {
+  width: 13%;
+  left: 44.4%;
+  top: 13%;
+}
+.cer {
+  width: 10%;
+  left: 78%;
+  top: 16.6%;
+}
+.contact {
+  width: 25.5%;
+  left: 3.4%;
+  bottom: 5.5%;
+}
+.works {
+  width: 29.5%;
+  left: 50.2%;
+  bottom: 5.8%;
+}
+.html_wrap {
+  width: 5.85%;
+  height: 17.7%;
+  border-radius: 50%;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 39.5%;
+  top: 42%;
+}
+.html {
+  width: 40%;
+}
