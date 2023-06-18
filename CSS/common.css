@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+:root {
+  font-size: 16px;
+  --mw: 1200px;
+  font-family: 'SUITE Variable', sans-serif;
+}
+.mw {
+  max-width: var(--mw);
+  width: calc(100% - 2rem);
+  margin: 0 auto;
+}

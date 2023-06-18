@@ -194,12 +194,12 @@ contact.addEventListener('click', () => {
 });
 
 // Portfolio 모달창 닫고 열기
-const popup = document.querySelector('.popup');
-const close = document.querySelector('.close');
+// const popup = document.querySelector('.popup');
+// const close = document.querySelector('.close');
 
-works.addEventListener('click', () => {
-  popup.classList.add('on');
-});
-close.addEventListener('click', () => {
-  popup.classList.remove('on');
-});
+// works.addEventListener('click', () => {
+//   popup.classList.add('on');
+// });
+// close.addEventListener('click', () => {
+//   popup.classList.remove('on');
+// });
