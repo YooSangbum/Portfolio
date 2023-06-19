@@ -416,24 +416,25 @@
   top: 5.3%;
 }
 .c1.ani {
-  animation: c1 2s 2s;
+  animation: c1 2s 1.7s;
 }
 .o1 {
-  border: 1px solid red;
   width: 8.2%;
   left: 17%;
   top: 5.3%;
-  transform-style: preserve-3d;
+  /* transform-style: preserve-3d; */
+  /* 수정 */
+  transform-style: flat;
   /* transform-origin: center; */
   /* perspective: 1200px; */
   /* perspective-origin: center; */
 }
 .o1.ani {
-  animation: o1 2s 2s;
+  animation: o1 2s 1.7s;
 }
 .o1img {
   width: 100%;
-  animation: rotationY 3s 1s 5;
+  animation: rotationY 2s 6s 4;
 }
 .d1 {
   width: 7.7%;
@@ -441,7 +442,7 @@
   top: 5.3%;
 }
 .d1.ani {
-  animation: d1 2s 2s;
+  animation: d1 2s 1.7s;
 }
 .e1 {
   width: 6.2%;
@@ -449,7 +450,7 @@
   top: 5.3%;
 }
 .e1.ani {
-  animation: e1 2s 2s;
+  animation: e1 2s 1.7s;
 }
 .name {
   width: 15%;
@@ -500,6 +501,10 @@
 .c2.ani {
   animation: c2 4s;
 }
+.c2img {
+  width: 100%;
+  animation: rotationY 2s 16s 4;
+}
 .s2 {
   width: 7.4%;
   left: 75%;
@@ -533,6 +538,9 @@
   opacity: 0;
   animation: click 2.5s 5s 3;
 }
+.click.ani {
+  animation: smile 2s 2.5s;
+}
 .click1 {
   width: 8%;
   position: absolute;
@@ -541,12 +549,15 @@
   opacity: 0;
   animation: click1 2.5s 18s 5;
 }
+.click1.ani {
+  animation: smile 2s 2.5s;
+}
 .r3 {
   left: 43%;
   top: 55%;
 }
 .r3.ani {
-  animation: r3 4s 2s;
+  animation: r3 4s 1.7s;
 }
 .e3 {
   width: 6.3%;
@@ -554,7 +565,7 @@
   top: 55%;
 }
 .e3.ani {
-  animation: e3 4s 2s;
+  animation: e3 4s 1.7s;
 }
 .a3 {
   width: 8.4%;
@@ -562,23 +573,26 @@
   top: 55%;
 }
 .a3.ani {
-  animation: a3 4s 2s;
+  animation: a3 4s 1.7s;
 }
 .c3 {
   left: 74.5%;
   top: 55%;
 }
 .c3.ani {
-  animation: c3 4s 2s;
+  animation: c3 4s 1.7s;
 }
 .t3 {
   width: 6.6%;
   left: 85%;
   top: 54.5%;
-  animation: rotationY 2s 3s 2;
 }
 .t3.ani {
-  animation: t3 4s 2s;
+  animation: t3 4s 1.7s;
+}
+.t3img {
+  width: 100%;
+  animation: rotationY 3s 1s 3;
 }
 .a4 {
   width: 8.4%;
@@ -586,7 +600,7 @@
   top: 79.2%;
 }
 .a4.ani {
-  animation: a4 2s 2.8s;
+  animation: a4 2s 2.4s;
 }
 .s4 {
   width: 7.5%;
@@ -594,16 +608,19 @@
   top: 79.2%;
 }
 .s4.ani {
-  animation: s4 2s 2.8s;
+  animation: s4 2s 2.4s;
 }
 .s41 {
   width: 7.5%;
   left: 26%;
   top: 79.2%;
-  animation: rotationY 3s 6s 2;
 }
 .s41.ani {
-  animation: s41 2s 2.8s;
+  animation: s41 2s 2.4s;
+}
+.s41img {
+  width: 100%;
+  animation: rotationY 3s 10s 3;
 }
 .e4 {
   width: 6.3%;
@@ -611,7 +628,7 @@
   top: 79.2%;
 }
 .e4.ani {
-  animation: e4 2s 2.8s;
+  animation: e4 2s 2.4s;
 }
 .m4 {
   width: 8.8%;
@@ -619,14 +636,14 @@
   top: 79.2%;
 }
 .m4.ani {
-  animation: m4 2s 2.8s;
+  animation: m4 2s 2.4s;
 }
 .b4 {
   left: 54%;
   top: 79.2%;
 }
 .b4.ani {
-  animation: b4 2s 2.8s;
+  animation: b4 2s 2.4s;
 }
 .l4 {
   width: 6.1%;
@@ -634,7 +651,7 @@
   top: 79.2%;
 }
 .l4.ani {
-  animation: l4 2s 2.8s;
+  animation: l4 2s 2.4s;
 }
 .e41 {
   width: 6.3%;
@@ -642,26 +659,24 @@
   top: 79.2%;
 }
 .e41.ani {
-  animation: e41 2s 2.8s;
+  animation: e41 2s 2.4s;
 }
 .r4 {
   left: 79.5%;
   top: 79.2%;
 }
 .r4.ani {
-  animation: r4 2s 2.8s;
+  animation: r4 2s 2.4s;
 }
+/* 수정 */
 @keyframes rotationY {
   0% {
     perspective-origin: center;
-    transform: perspective(1000px) rotateY(0);
+    transform: perspective(800px) rotateY(0);
   }
-  /* 50% {
-    transform: rotateY(180deg);
-  } */
   100% {
     perspective-origin: center;
-    transform: perspective(1000px) rotateY(360deg);
+    transform: perspective(800px) rotateY(360deg);
   }
 }
 @keyframes srrr {
