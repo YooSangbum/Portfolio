@@ -145,7 +145,7 @@
   /* animation: name duration timing-function delay iteration-count direction fill-mode; */
 }
 .con.ani {
-  animation: srrr 6s;
+  animation: srrr 3.8s;
 }
 .conR {
   width: 0.27%;
@@ -154,7 +154,7 @@
   /* animation: srrr 9s; */
 }
 .conR.ani {
-  animation: srrr 6s;
+  animation: srrr 3.8s;
 }
 .con1 {
   left: 10%;
@@ -416,15 +416,24 @@
   top: 5.3%;
 }
 .c1.ani {
-  animation: c1 2s 4s;
+  animation: c1 2s 2s;
 }
 .o1 {
+  border: 1px solid red;
   width: 8.2%;
   left: 17%;
   top: 5.3%;
+  transform-style: preserve-3d;
+  /* transform-origin: center; */
+  /* perspective: 1200px; */
+  /* perspective-origin: center; */
 }
 .o1.ani {
-  animation: o1 2s 4s;
+  animation: o1 2s 2s;
+}
+.o1img {
+  width: 100%;
+  animation: rotationY 3s 1s 5;
 }
 .d1 {
   width: 7.7%;
@@ -432,7 +441,7 @@
   top: 5.3%;
 }
 .d1.ani {
-  animation: d1 2s 4s;
+  animation: d1 2s 2s;
 }
 .e1 {
   width: 6.2%;
@@ -440,7 +449,7 @@
   top: 5.3%;
 }
 .e1.ani {
-  animation: e1 2s 4s;
+  animation: e1 2s 2s;
 }
 .name {
   width: 15%;
@@ -449,7 +458,7 @@
   top: 5.3%;
 }
 .name.ani {
-  animation: name 3s 2s;
+  animation: name 3s 0.7s;
 }
 
 .h2 {
@@ -458,7 +467,7 @@
   top: 30%;
 }
 .h2.ani {
-  animation: h2 3s 3s;
+  animation: h2 3s 1s;
 }
 .t2 {
   width: 6.4%;
@@ -466,7 +475,7 @@
   top: 30%;
 }
 .t2.ani {
-  animation: t2 3s 3s;
+  animation: t2 3s 1s;
 }
 .m2 {
   width: 8.7%;
@@ -474,7 +483,7 @@
   top: 30%;
 }
 .m2.ani {
-  animation: m2 3s 3s;
+  animation: m2 3s 1s;
 }
 .l2 {
   width: 6.2%;
@@ -482,14 +491,14 @@
   top: 30%;
 }
 .l2.ani {
-  animation: l2 3s 3s;
+  animation: l2 3s 1s;
 }
 .c2 {
   left: 66%;
   top: 30%;
 }
 .c2.ani {
-  animation: c2 4s 1s;
+  animation: c2 4s;
 }
 .s2 {
   width: 7.4%;
@@ -497,7 +506,7 @@
   top: 30%;
 }
 .s2.ani {
-  animation: s2 4s 1s;
+  animation: s2 4s;
 }
 .s21 {
   width: 7.4%;
@@ -505,7 +514,7 @@
   top: 30%;
 }
 .s21.ani {
-  animation: s21 4s 1s;
+  animation: s21 4s;
 }
 .smile {
   width: 8.5%;
@@ -514,7 +523,23 @@
   top: 55%;
 }
 .smile.ani {
-  animation: smile 2s 4s;
+  animation: smile 2s 2.5s;
+}
+.click {
+  width: 8%;
+  position: absolute;
+  left: 18.5%;
+  top: 55%;
+  opacity: 0;
+  animation: click 2.5s 5s 3;
+}
+.click1 {
+  width: 8%;
+  position: absolute;
+  left: 18.5%;
+  top: 55%;
+  opacity: 0;
+  animation: click1 2.5s 18s 5;
 }
 .r3 {
   left: 43%;
@@ -550,6 +575,7 @@
   width: 6.6%;
   left: 85%;
   top: 54.5%;
+  animation: rotationY 2s 3s 2;
 }
 .t3.ani {
   animation: t3 4s 2s;
@@ -560,7 +586,7 @@
   top: 79.2%;
 }
 .a4.ani {
-  animation: a4 2s 4.2s;
+  animation: a4 2s 2.8s;
 }
 .s4 {
   width: 7.5%;
@@ -568,15 +594,16 @@
   top: 79.2%;
 }
 .s4.ani {
-  animation: s4 2s 4.2s;
+  animation: s4 2s 2.8s;
 }
 .s41 {
   width: 7.5%;
   left: 26%;
   top: 79.2%;
+  animation: rotationY 3s 6s 2;
 }
 .s41.ani {
-  animation: s41 2s 4.2s;
+  animation: s41 2s 2.8s;
 }
 .e4 {
   width: 6.3%;
@@ -584,7 +611,7 @@
   top: 79.2%;
 }
 .e4.ani {
-  animation: e4 2s 4.2s;
+  animation: e4 2s 2.8s;
 }
 .m4 {
   width: 8.8%;
@@ -592,14 +619,14 @@
   top: 79.2%;
 }
 .m4.ani {
-  animation: m4 2s 4.2s;
+  animation: m4 2s 2.8s;
 }
 .b4 {
   left: 54%;
   top: 79.2%;
 }
 .b4.ani {
-  animation: b4 2s 4.2s;
+  animation: b4 2s 2.8s;
 }
 .l4 {
   width: 6.1%;
@@ -607,7 +634,7 @@
   top: 79.2%;
 }
 .l4.ani {
-  animation: l4 2s 4.2s;
+  animation: l4 2s 2.8s;
 }
 .e41 {
   width: 6.3%;
@@ -615,16 +642,28 @@
   top: 79.2%;
 }
 .e41.ani {
-  animation: e41 2s 4.2s;
+  animation: e41 2s 2.8s;
 }
 .r4 {
   left: 79.5%;
   top: 79.2%;
 }
 .r4.ani {
-  animation: r4 2s 4.2s;
+  animation: r4 2s 2.8s;
 }
-
+@keyframes rotationY {
+  0% {
+    perspective-origin: center;
+    transform: perspective(1000px) rotateY(0);
+  }
+  /* 50% {
+    transform: rotateY(180deg);
+  } */
+  100% {
+    perspective-origin: center;
+    transform: perspective(1000px) rotateY(360deg);
+  }
+}
 @keyframes srrr {
   0% {
     opacity: 1;
@@ -761,6 +800,22 @@
   100% {
     /* transform: translate3d(0, 0, 0); */
     transform: translate3d(700px, -100px, 1000px);
+  }
+}
+@keyframes click {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes click1 {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }
 @keyframes r3 {

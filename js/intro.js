@@ -7,5 +7,5 @@ window.addEventListener('click', () => {
   });
   setTimeout(function () {
     window.location.href = './main.html';
-  }, 4900);
+  }, 3500);
 });

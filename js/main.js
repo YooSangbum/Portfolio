@@ -20,7 +20,8 @@ const number1 = `
 <div class="con_box">
   <p class="content">
     이름: 유상범<br />
-    생년월일: 1987.08.01<br />
+    생년월일: 1987.08.01<br /> 
+    <br />
     어린 시절부터 무언가를 조립하는걸 좋아했습니다. <br />
     순서대로 하나씩 맞추다보면 짜잔~ 하고 만들어진 완성품이 그렇게
     좋았습니다.<br />
@@ -149,10 +150,11 @@ const number6 = `
 <div class="num_box">06</div>
 <div class="con_box">
   <p class="content">
-    열정이 넘치는 사람을 찾고 계신가요?<br />
-    ysbjjyes@gmail.com로 연락주세요.<br />
-    아니다!!!제가 찾아가겠습니다.<br />기다려주세요. 전 당신과 함께
-    일하고 싶어요 !!<br />
+    열정있는 개발자를 원하시나요? <br />
+    당신과 함께 일하고 싶어요 !! <br /> <br/>
+    <i class="fa-solid fa-circle-user"></i> &nbsp   유상범 <br /> 
+    <i class="fa-solid fa-envelope-open-text"></i> &nbsp ysbjjyes@gmail.com <br />
+    <i class="fa-brands fa-slack"></i> &nbsp slack
   </p>
 </div>`;
 
