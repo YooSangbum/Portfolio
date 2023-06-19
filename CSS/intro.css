@@ -12,11 +12,10 @@
   /* width: 80%; */
   /* max-width: 1200px; */
   padding-top: 668px;
-
   background-image: url(../img/intromold.png);
   background-repeat: no-repeat;
-  background-size: cover;
-  /* background-position: center; */
+  background-size: contain;
+  background-position: center;
   position: relative;
   transform-style: preserve-3d;
 }
@@ -142,14 +141,20 @@
 .con {
   width: 0.27%;
   position: absolute;
-  animation: srrr 5s;
+  /* animation: srrr 9s; */
   /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+.con.ani {
+  animation: srrr 6s;
 }
 .conR {
   width: 0.27%;
   position: absolute;
   transform: rotate(180deg);
-  animation: srrr 5s;
+  /* animation: srrr 9s; */
+}
+.conR.ani {
+  animation: srrr 6s;
 }
 .con1 {
   left: 10%;
@@ -620,14 +625,14 @@
   animation: r4 2s 4.2s;
 }
 
-/* @keyframes srrr {
+@keyframes srrr {
   0% {
     opacity: 1;
   }
   100% {
     opacity: 0;
   }
-} */
+}
 @keyframes c1 {
   0% {
     /* transform: translate3d(900px, 500px, 1400px); */

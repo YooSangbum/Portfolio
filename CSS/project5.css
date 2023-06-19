@@ -168,7 +168,13 @@ header {
 .img_gif {
   display: flex;
   justify-content: center;
-  padding: 2rem 0;
+  padding: 1rem 0;
+  width: 100%;
+}
+.img_gif img {
+  width: 22%;
+  height: 100%;
+  object-fit: cover;
 }
 .sec4 {
   max-width: 1440px;
