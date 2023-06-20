@@ -452,6 +452,10 @@
 .e1.ani {
   animation: e1 2s 1.7s;
 }
+.e1img {
+  width: 100%;
+  animation: rotationY 3s 30s 3;
+}
 .name {
   width: 15%;
   position: absolute;
@@ -477,6 +481,10 @@
 }
 .t2.ani {
   animation: t2 3s 1s;
+}
+.t2img {
+  width: 100%;
+  animation: rotationY 2s 23s 3;
 }
 .m2 {
   width: 8.7%;
@@ -530,26 +538,31 @@
 .smile.ani {
   animation: smile 2s 2.5s;
 }
-.click {
+.click,
+.click1,
+.click2 {
   width: 8%;
   position: absolute;
   left: 18.5%;
   top: 55%;
   opacity: 0;
+}
+.click {
   animation: click 2.5s 5s 3;
 }
 .click.ani {
   animation: smile 2s 2.5s;
 }
 .click1 {
-  width: 8%;
-  position: absolute;
-  left: 18.5%;
-  top: 55%;
-  opacity: 0;
-  animation: click1 2.5s 18s 5;
+  animation: click1 2.5s 18s 3;
 }
 .click1.ani {
+  animation: smile 2s 2.5s;
+}
+.click2 {
+  animation: click2 2.5s 32s 3;
+}
+.click2.ani {
   animation: smile 2s 2.5s;
 }
 .r3 {
@@ -581,6 +594,10 @@
 }
 .c3.ani {
   animation: c3 4s 1.7s;
+}
+.c3img {
+  width: 100%;
+  animation: rotationY 3s 27s 3;
 }
 .t3 {
   width: 6.6%;
@@ -644,6 +661,10 @@
 }
 .b4.ani {
   animation: b4 2s 2.4s;
+}
+.b4img {
+  width: 100%;
+  animation: rotationY 3s 23s 3;
 }
 .l4 {
   width: 6.1%;
@@ -827,10 +848,18 @@
 }
 @keyframes click1 {
   0% {
-    opacity: 1;
+    opacity: 0;
   }
   100% {
+    opacity: 1;
+  }
+}
+@keyframes click2 {
+  0% {
     opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 @keyframes r3 {
