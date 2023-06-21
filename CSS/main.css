@@ -60,6 +60,9 @@
 .photo:hover {
   border: 1px solid #ff9b04;
 }
+.photo.on {
+  border: 1px solid #ff9b04;
+}
 .photo img {
   border-radius: 6px;
   width: 90%;
@@ -81,6 +84,12 @@
 .edu:hover img:nth-of-type(1) {
   display: none;
 }
+.edu.on img:nth-child(2) {
+  display: block;
+}
+.edu.on img:nth-child(1) {
+  display: none;
+}
 .cer {
   width: 10%;
   left: 78%;
@@ -95,6 +104,13 @@
 .cer:hover img:nth-of-type(1) {
   display: none;
 }
+.cer.on img:nth-of-type(2) {
+  display: block;
+}
+.cer.on img:nth-of-type(1) {
+  display: none;
+}
+
 .contact {
   width: 25.5%;
   left: 3.4%;
@@ -113,6 +129,10 @@
   transition: 0.5s;
 }
 .contact:hover::after {
+  opacity: 1;
+  width: 100%;
+}
+.contact.on::after {
   opacity: 1;
   width: 100%;
 }
@@ -148,7 +168,7 @@
   width: 5.85%;
   height: 17.7%;
   border-radius: 50%;
-  background-color: antiquewhite;
+  background-color: #e9eaec;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -156,6 +176,30 @@
   left: 39.5%;
   top: 42%;
   cursor: pointer;
+}
+.html_wrap.on {
+  background-color: #ffc3b2;
+}
+.css_wrap.on {
+  background-color: #bed4ff;
+}
+.js_wrap.on {
+  background-color: #fff49a;
+}
+.react_wrap.on {
+  background-color: #bbdeff;
+}
+.nodejs_wrap.on {
+  background-color: #c6ffbd;
+}
+.aws_wrap.on {
+  background-color: #ffbf85;
+}
+.firebase_wrap.on {
+  background-color: #ffeebb;
+}
+.github_wrap.on {
+  background-color: #ffc0f5;
 }
 .html_wrap:hover,
 .css_wrap:hover,
@@ -165,7 +209,7 @@
 .aws_wrap:hover,
 .firebase_wrap:hover,
 .github_wrap:hover {
-  background-color: #fdae9d;
+  background-color: #c8c8c8;
 }
 .html,
 .css,

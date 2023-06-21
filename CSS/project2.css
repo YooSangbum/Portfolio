@@ -310,7 +310,7 @@ header {
     font-size: 1.25rem;
   }
   .project_goal > h3 {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
   .project_goal > p {
     font-size: 0.8rem;
@@ -432,9 +432,7 @@ header {
     margin: 0.5rem 0 0.5rem 3rem;
     font-size: 1.25rem;
   }
-  .img_con {
-    margin: 1rem 0;
-  }
+
   .btns {
     width: 100%;
     display: flex;
@@ -450,6 +448,9 @@ header {
   .sec1_right {
     width: 100%;
   }
+  .img_con {
+    margin: 1rem 0;
+  }
   .sec2 {
     margin: 3rem auto 1rem;
   }
@@ -461,7 +462,7 @@ header {
 }
 @media (max-width: 580px) {
   .explain_wrap {
-    margin: 3rem auto;
+    margin: 1rem auto;
     max-width: 960px;
     display: flex;
     flex-wrap: wrap;
@@ -481,7 +482,7 @@ header {
     margin: 0rem auto 0;
   }
   .btn_gotop {
-    bottom: 50px;
+    bottom: 30px;
     right: 10px;
     padding: 4px 8px;
   }
@@ -520,7 +521,7 @@ header {
     font-size: 0.8rem;
   }
   .project_goal > h3 {
-    font-size: 1.25rem;
+    font-size: 0.8rem;
   }
   .project_goal > p {
     font-size: 0.6rem;

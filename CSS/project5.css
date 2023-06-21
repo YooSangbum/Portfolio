@@ -29,6 +29,7 @@ header {
 .sec1_left {
   width: 50%;
   background-color: #ceceff;
+  position: relative;
 }
 .sec1_left p {
   color: #000;
@@ -51,9 +52,9 @@ header {
   font-size: 2.5rem;
 }
 .btns {
-  text-align: right;
-  margin-top: 15rem;
-  margin-right: 5rem;
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -72,7 +73,7 @@ header {
   justify-content: center;
 }
 .img_con {
-  width: 50%;
+  width: 80%;
   height: 80%;
   display: flex;
   justify-content: center;
@@ -81,9 +82,9 @@ header {
   overflow: hidden;
 }
 .img_con img {
-  width: 50%;
-  height: 50%;
-  object-fit: cover;
+  width: 60%;
+  height: 100%;
+  object-fit: contain;
 }
 .sec2 {
   max-width: 1440px;
@@ -146,7 +147,7 @@ header {
   font-weight: bold;
 }
 .project_goal {
-  margin-bottom: 7rem;
+  margin: 1rem;
 }
 .project_goal > h3 {
   font-size: 1.625rem;
@@ -160,7 +161,7 @@ header {
 .sec3 {
   max-width: 1440px;
   width: calc(100% - 2rem);
-  margin: 7rem auto 0;
+  margin: 7rem auto;
 }
 .sec3 > h3 {
   font-size: 2rem;
@@ -172,20 +173,20 @@ header {
 .img_gif {
   display: flex;
   justify-content: center;
-  padding: 1rem 0;
+  padding: 2rem 0;
   width: 100%;
 }
 .img_gif img {
-  width: 22%;
+  border: 1px solid #eaeaea;
+  width: 15%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 .sec4 {
   max-width: 1440px;
   width: calc(100% - 2rem);
   margin: 10rem auto;
 }
-
 .sec4 > h3 {
   font-size: 2rem;
   font-weight: bold;
@@ -222,4 +223,243 @@ header {
   cursor: pointer;
   padding: 15px 20px;
   border-radius: 100%;
+}
+
+/* 반응형 */
+@media (max-width: 1024px) {
+  .sec1_left p {
+    margin-bottom: 0.2rem;
+    font-size: 1rem;
+  }
+  .sec1_left span {
+    font-size: 0.7rem;
+  }
+  .sec1_left .number {
+    margin-top: 3rem;
+    font-size: 1rem;
+  }
+  .sec1_left .detail_title {
+    margin: 1rem 0 1rem 3rem;
+    font-size: 2rem;
+  }
+  .btns {
+    bottom: 10%;
+    right: 10%;
+  }
+  .btns a {
+    font-size: 0.8rem;
+  }
+  .img_con {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .img_con img {
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+  }
+  .btn_gotop {
+    bottom: 100px;
+    right: 30px;
+    padding: 10px 15px;
+  }
+}
+@media (max-width: 930px) {
+  .sec2 > h2 {
+    font-size: 1.25rem;
+  }
+  .sec2 > p {
+    font-size: 0.8rem;
+  }
+  .p_wrap > p {
+    font-size: 0.8rem;
+  }
+  .explain_strong {
+    font-size: 1rem;
+  }
+  .project_goal > h3 {
+    font-size: 1.25rem;
+  }
+  .project_goal > p {
+    font-size: 0.8rem;
+    line-height: 2;
+  }
+  .sec3 > h3 {
+    font-size: 1.25rem;
+  }
+  .sec3 > p {
+    font-size: 0.8rem;
+  }
+  .sec4 > h3 {
+    font-size: 1.25rem;
+  }
+  .sec4 > p {
+    font-size: 0.8rem;
+  }
+  .fonts > p,
+  .colors > p {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+  }
+}
+@media (max-width: 800px) {
+  .sec1_left p {
+    margin-bottom: 0.1rem;
+    font-size: 0.7rem;
+    margin-left: 2rem;
+  }
+  .sec1_left span {
+    font-size: 0.6rem;
+  }
+  .sec1_left .number {
+    margin-top: 3rem;
+    font-size: 0.8rem;
+  }
+  .sec1_left .detail_title {
+    margin: 0.5rem 0 0.5rem 2rem;
+    font-size: 1.2rem;
+  }
+  .btns {
+    bottom: 5%;
+    right: 5%;
+  }
+  .btns a {
+    padding: 0.4rem 0.6rem;
+    font-size: 0.6rem;
+  }
+}
+@media (max-width: 720px) {
+  .p_wrap > p {
+    font-size: 0.6rem;
+  }
+  .explain_strong {
+    font-size: 0.8rem;
+  }
+  .project_goal > h3 {
+    font-size: 1rem;
+  }
+  .project_goal > p {
+    font-size: 0.8rem;
+    line-height: 2;
+  }
+}
+@media (max-width: 573px) {
+  header {
+    padding: 1rem 0 1rem;
+  }
+  .back {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.8rem;
+  }
+  .sec1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sec1_left {
+    width: 100%;
+  }
+  .leftP_wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sec1_left p {
+    margin-left: 3rem;
+    margin-bottom: 0.1rem;
+    font-size: 0.7rem;
+    width: 100%;
+  }
+  .sec1_left span {
+    font-size: 0.6rem;
+  }
+  .sec1_left .number {
+    margin-top: 2rem;
+    font-size: 0.7rem;
+  }
+  .sec1_left .detail_title {
+    margin: 0.5rem 0 0.5rem 3rem;
+    font-size: 1.25rem;
+  }
+  .btns {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    align-items: center;
+    position: relative;
+  }
+  .btns a {
+    padding: 0.5rem 0.5rem;
+  }
+  .sec1_right {
+    width: 100%;
+  }
+  .sec3 {
+    margin: 3rem auto;
+  }
+  .btn_gotop {
+    bottom: 150px;
+    right: 30px;
+    padding: 6px 10px;
+  }
+}
+@media (max-width: 580px) {
+  .sec1 {
+    margin-bottom: 2rem;
+  }
+  .sec2 {
+    margin: 1rem auto;
+  }
+  .explain_wrap {
+    margin: 0 auto;
+    max-width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  }
+  .explain {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .exp_img_con img {
+    width: 8%;
+  }
+  .btn_gotop {
+    bottom: 100px;
+    right: 20px;
+    padding: 4px 8px;
+  }
+}
+@media (max-width: 400px) {
+  .sec1_left p {
+    margin-left: 1rem;
+    font-size: 0.6rem;
+  }
+  .sec1_left .detail_title {
+    margin: 0.5rem 0 0.5rem 1rem;
+  }
+  .btns a {
+    padding: 0.3rem 0.3rem;
+  }
+  .p_wrap > p {
+    font-size: 0.6rem;
+  }
+  .explain_strong {
+    font-size: 0.8rem;
+  }
+  .project_goal > h3 {
+    margin-top: 2rem;
+    font-size: 0.8rem;
+  }
+  .project_goal > p {
+    font-size: 0.6rem;
+    line-height: 2;
+  }
 }

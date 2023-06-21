@@ -1,3 +1,4 @@
+const $Icon = document.querySelectorAll('.main_mold >div');
 const photo = document.querySelector('.photo');
 const edu = document.querySelector('.edu');
 const cer = document.querySelector('.cer');
@@ -193,6 +194,16 @@ github.addEventListener('click', () => {
 });
 contact.addEventListener('click', () => {
   box_wrap.innerHTML = number6;
+});
+
+//클릭했을 때, 배경색 focus 상태 유지
+$Icon.forEach((item) => {
+  item.addEventListener('click', () => {
+    $Icon.forEach((item) => {
+      item.classList.remove('on');
+    });
+    item.classList.add('on');
+  });
 });
 
 // Portfolio 모달창 닫고 열기
