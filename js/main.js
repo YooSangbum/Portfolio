@@ -52,6 +52,12 @@ const number3 = `
 <div class="con_box">
   <p class="content">
     2011. 1종보통운전면허
+    <br/>
+    <br/>
+    <br/>
+    수상내역 
+    <br/>
+    2011.10 대한민국 스마트미디어 앱 공모전 기획부문 최우수상
   </p>
 </div>`;
 
