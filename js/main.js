@@ -161,7 +161,7 @@ const number6 = `
     당신과 함께 일하고 싶어요 !! <br /> <br/>
     <i class="fa-solid fa-circle-user"></i> &nbsp   유상범 <br /> 
     <i class="fa-solid fa-envelope-open-text"></i> &nbsp ysbjjyes@gmail.com <br />
-    <i class="fa-brands fa-slack"></i> &nbsp slack
+    <i class="fa-brands fa-github"></i> &nbsp <a href="https://github.com/YooSangbum" target="_blank">YooSangbum</a> 
   </p>
 </div>`;
 
